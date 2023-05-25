@@ -1,0 +1,60 @@
+* {
+ margin : 0 auto;
+box-sizing: border-box;
+font-family: 'Tajawal', sans-serif;
+padding:0 auto;
+
+}
+
+body  { 
+    background-color: yellow;
+}
+.content {
+    background-image: linear-gradient(to right,blue, red);
+}
+.footer {
+background-color:blue;
+}
+small {
+display: flex;
+justify-content: space-around;
+}
+.name {
+ font-size: 36px;
+ text-align: left;
+}
+h1,h2,h3,p {
+text-align:center;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    border : 1px inset black;
+
+
+}
+img {
+    width:80%;
+    margin:8px;
+    object-fit: cover;
+    border: 2px solid black;
+    
+}
+img:hover {
+box-shadow: 4px 1px 2px 1px black;
+}
+
+.fa-solid {
+color:beige;
+margin-top: 0.2em;
+}
+
+a {
+    text-decoration: none;
+    color:mintcream;
+}
+.nav {
+text-align:right;
+background-color: darkturquoise;
+padding: 15px;
+}

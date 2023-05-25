@@ -3,35 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  padding: 0 100px;
-}
-
-.part-1 {
-  display: flex;
-  margin: auto;
-}
-
-.part-1-img {
-  width: 50%;
-}
-
-.part-2-car {
-  width: 800px;
-  overflow: hidden;
-  margin: auto;
-}
-
-.part-2-car-imgs {
-  position: relative;
-  display: flex;
-  height: 500px;
-  right: 0%;
-  transition: all 0.5s ease-in-out;
-}
-
-.part-2-car-imgs img {
-  aspect-ratio: 16/10;
-  height: 100%;
-}

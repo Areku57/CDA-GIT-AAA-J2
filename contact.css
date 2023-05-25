@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open sans" sans-serif;
-    color: #322;
+    color: white;
 }
 
 body {
@@ -12,4 +12,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.blanc {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00000070;
+    z-index: -1;
 }
